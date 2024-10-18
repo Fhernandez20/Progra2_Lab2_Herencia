@@ -12,8 +12,13 @@ public class PlanIPhone extends Plan{
     
     private String email;
     
-    public PlanIPhone(int numero, String nombre){
+    public PlanIPhone(int numero, String nombre, String email){
         super(numero,nombre);
+        this.email = email;
+    }
+
+    public String getEmail() {
+        return email;
     }
 
     public double pagoMensual(int min, int msgs){
