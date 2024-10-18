@@ -6,8 +6,8 @@ package lab2herencia;
 
 /**
  *
- * @author fdhg0
+ * @author Jorge Aguirre
  */
-public class PlanIPhone {
+public class PlanIphone {
     
 }
